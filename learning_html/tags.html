@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Tags HTML com Atributos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #ccc;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .tag-vazia {
+            color: #a00;
+            font-weight: bold;
+        }
+
+        /* Cores por categoria */
+        .estrutura {
+            background-color: #e3f2fd;
+        }
+
+        .conteudo {
+            background-color: #fff3e0;
+        }
+
+        .criacao {
+            background-color: #e8f5e9;
+        }
+
+        .formatacao {
+            background-color: #fce4ec;
+        }
+
+        .multimedia {
+            background-color: #f3e5f5;
+        }
+
+        .formularios {
+            background-color: #fff9c4;
+        }
+
+        .tabelas {
+            background-color: #d7ccc8;
+        }
+
+        .scripts {
+            background-color: #b2dfdb;
+        }
+
+        .meta {
+            background-color: #ffcdd2;
+        }
+
+        li span.attributes {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Tags HTML com Atributos</h1>
+
+    <div class="card estrutura">
+        <h2>Estrutura</h2>
+        <ul>
+            <li>!DOCTYPE <span class="tag-vazia">(tag vazia)</span> <span class="attributes">:html</span></li>
+            <li>html <span class="attributes">:lang, :dir</span></li>
+            <li>head</li>
+            <li>title</li>
+            <li>base <span class="tag-vazia">(tag vazia)</span> <span class="attributes">:href, :target</span></li>
+            <li>link <span class="tag-vazia">(tag vazia)</span> <span class="attributes">:rel, :href, :type,
+                    :media</span></li>
+            <li>meta <span class="tag-vazia">(tag vazia)</span> <span class="attributes">:charset, :name, :content,
+                    :http-equiv</span></li>
+            <li>style <span class="attributes">:type, :media, :scoped</span></li>
+            <li>body <span class="attributes">:onload, :onunload, :class, :id</span></li>
+        </ul>
+    </div>
+
+    <div class="card conteudo">
+        <h2>Conteúdo Semântico</h2>
+        <ul>
+            <li>header <span class="attributes">:class, :id</span></li>
+            <li>nav <span class="attributes">:class, :id</span></li>
+            <li>main <span class="attributes">:class, :id</span></li>
+            <li>section <span class="attributes">:class, :id</span></li>
+            <li>article <span class="attributes">:class, :id</span></li>
+            <li>aside <span class="attributes">:class, :id</span></li>
+            <li>footer <span class="attributes">:class, :id</span></li>
+            <li>hr <span class="tag-vazia">(tag vazia)</span> <span class="attributes">:class, :id, :style</span></li>
+        </ul>
+    </div>
+
+    <div class="card criacao">
+        <h2>Criação de Conteúdo</h2>
+        <ul>
+            <li>h1 a h6 <span class="attributes">:class, :id, :style</span></li>
+            <li>p <span class="attributes">:class, :id, :style</span></li>
+            <li>pre <span class="attributes">:class, :id, :style</span></li>
+            <li>blockquote <span class="attributes">:cite, :class, :id</span></li>
+            <li>ol <span class="attributes">:type, :start, :reversed, :class, :id</span></li>
+            <li>ul <span class="attributes">:type, :class, :id</span></li>
+            <li>li <span class="attributes">:value, :class, :id</span></li>
+            <li>dl <span class="attributes">:class, :id</span></li>
+            <li>dt <span class="attributes">:class, :id</span></li>
+            <li>dd <span class="attributes">:class, :id</span></li>
+        </ul>
+    </div>
+
+    <div class="card formatacao">
+        <h2>Formatação</h2>
+        <ul>
+            <li>a <span class="attributes">:href, :target, :rel, :type, :download, :hreflang</span></li>
+            <li>em <span class="attributes">:class, :id</span></li>
+            <li>strong <span class="attributes">:class, :id</span></li>
+            <li>small <span class="attributes">:class, :id</span></li>
+            <li>s <span class="attributes">:class, :id</span></li>
+            <li>cite <span class="attributes">:class, :id</span></li>
+            <li>q <span class="attributes">:cite, :class, :id</span></li>
+            <li>dfn <span class="attributes">:class, :id</span></li>
+            <li>abbr <span class="attributes">:title, :class, :id</span></li>
+            <li>time <span class="attributes">:datetime, :class, :id</span></li>
+            <li>code <span class="attributes">:class, :id</span></li>
+            <li>var <span class="attributes">:class, :id</span></li>
+            <li>samp <span class="attributes">:class, :id</span></li>
+            <li>kbd <span class="attributes">:class, :id</span></li>
+            <li>sub <span class="attributes">:class, :id</span></li>
+            <li>sup <span class="attributes">:class, :id</span></li>
+            <li>i <span class="attributes">:class, :id</span></li>
+            <li>b <span class="attributes">:class, :id</span></li>
+            <li>u <span class="attributes">:class, :id</span></li>
+            <li>mark <span class="attributes">:class, :id</span></li>
+            <li>ruby <span class="attributes">:class, :id</span></li>
+            <li>rt <span class="attributes">:class, :id</span></li>
+            <li>rp <span class="attributes">:class, :id</span></li>
+            <li>bdi <span class="attributes">:class, :id</span></li>
+            <li>bdo <span class="attributes">:dir, :class, :id</span></li>
+            <li>span <span class="attributes">:class, :id</span></li>
+            <li>br <span class="tag-vazia">(tag vazia)</span> <span class="attributes">:class, :id</span></li>
+        </ul>
+    </div>
+
+    <div class="card multimedia">
+        <h2>Multimédia</h2>
+        <ul>
+            <li>img <span class="tag-vazia">(tag vazia)</span> <span class="attributes">:src, :alt, :width, :height,
+                    :crossorigin, :loading</span></li>
+            <li>audio <span class="attributes">:src, :controls, :autoplay, :loop, :muted, :preload</span></li>
+            <li>video <span class="attributes">:src, :controls, :autoplay, :loop, :muted, :poster, :width, :height,
+                    :preload</span></li>
+            <li>source <span class="tag-vazia">(tag vazia)</span> <span class="attributes">:src, :type, :media</span>
+            </li>
+            <li>track <span class="tag-vazia">(tag vazia)</span> <span class="attributes">:src, :kind, :srclang, :label,
+                    :default</span></li>
+            <li>map <span class="attributes">:name, :id, :class</span></li>
+            <li>area <span class="tag-vazia">(tag vazia)</span> <span class="attributes">:shape, :coords, :href, :alt,
+                    :target</span></li>
+            <li>picture <span class="attributes">:class, :id</span></li>
+            <li>canvas <span class="attributes">:width, :height, :class, :id</span></li>
+            <li>svg <span class="attributes">:width, :height, :viewBox, :xmlns, :class, :id</span></li>
+            <li>math <span class="attributes">:class, :id</span></li>
+        </ul>
+    </div>
+
+    <!-- Continuar com as demais categorias de forma semelhante... -->
+
+    <div class="card formularios">
+        <h2>Formulários e Controlo de Dados</h2>
+        <ul>
+            <li>form <span class="attributes">:action, :method, :enctype, :name, :target, :autocomplete</span></li>
+            <li>input <span class="tag-vazia">(tag vazia)</span> <span class="attributes">:type, :name, :value,
+                    :placeholder, :checked, :disabled, :readonly, :required, :min, :max, :step</span></li>
+            <li>textarea <span class="attributes">:name, :rows, :cols, :placeholder, :disabled, :readonly, :required,
+                    :wrap</span></li>
+            <li>button <span class="attributes">:type, :name, :value, :disabled, :autofocus</span></li>
+            <li>select <span class="attributes">:name, :multiple, :size, :disabled, :required</span></li>
+            <li>option <span class="attributes">:value, :selected, :disabled, :label</span></li>
+            <li>optgroup <span class="attributes">:label, :disabled</span></li>
+            <li>label <span class="attributes">:for</span></li>
+            <li>fieldset <span class="attributes">:disabled, :form, :name</span></li>
+            <li>legend <span class="attributes">:class, :id</span></li>
+            <li>datalist <span class="attributes">:id</span></li>
+            <li>output <span class="attributes">:for, :name, :form</span></li>
+            <li>progress <span class="attributes">:value, :max, :class, :id</span></li>
+            <li>meter <span class="attributes">:value, :min, :max, :low, :high, :optimum</span></li>
+        </ul>
+    </div>
+
+    <div class="card tabelas">
+        <h2>Tabelas</h2>
+        <ul>
+            <li>table <span class="attributes">:border, :cellspacing, :cellpadding, :summary, :class, :id</span></li>
+            <li>caption <span class="attributes">:class, :id</span></li>
+            <li>thead <span class="attributes">:class, :id</span></li>
+            <li>tbody <span class="attributes">:class, :id</span></li>
+            <li>tfoot <span class="attributes">:class, :id</span></li>
+            <li>tr <span class="attributes">:class, :id, :rowspan, :colspan</span></li>
+            <li>th <span class="attributes">:scope, :rowspan, :colspan, :headers, :abbr, :class, :id</span></li>
+            <li>td <span class="attributes">:rowspan, :colspan, :headers, :class, :id</span></li>
+        </ul>
+    </div>
+
+    <div class="card scripts">
+        <h2>Scripts e Integrações</h2>
+        <ul>
+            <li>script <span class="attributes">:src, :type, :async, :defer, :crossorigin, :nomodule, :integrity</span>
+            </li>
+            <li>noscript <span class="attributes">:class, :id</span></li>
+            <li>template <span class="attributes">:class, :id</span></li>
+            <li>slot <span class="attributes">:name, :class, :id</span></li>
+        </ul>
+    </div>
+
+    <div class="card meta">
+        <h2>Meta e Outros</h2>
+        <ul>
+            <li>iframe <span class="attributes">:src, :name, :width, :height, :sandbox, :allow, :referrerpolicy,
+                    :loading, :class, :id</span></li>
+            <li>embed <span class="tag-vazia">(tag vazia)</span> <span class="attributes">:src, :type, :width, :height,
+                    :class, :id</span></li>
+            <li>object <span class="attributes">:data, :type, :width, :height, :name, :class, :id</span></li>
+            <li>param <span class="tag-vazia">(tag vazia)</span> <span class="attributes">:name, :value</span></li>
+            <li>picture <span class="attributes">:class, :id</span></li>
+            <li>track <span class="attributes">:src, :kind, :srclang, :label, :default</span></li>
+        </ul>
+    </div>
